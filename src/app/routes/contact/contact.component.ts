@@ -58,7 +58,7 @@ import { EmailValidator } from '@angular/forms';
                 class="textarea" 
                 #messageInput="ngModel"
                 [(ngModel)]="message"
-                required>
+              >
               </textarea> 
 
               <div class="help is-error" *ngIf="messageInput.invalid && messageInput.dirty">

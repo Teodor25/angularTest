@@ -15,7 +15,7 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: [`
     .hero {
-      background-image: url('/assets/img/business05.jpg') !important; 
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/img/business05.jpg') !important; 
       background-size: cover; 
       background-position: center center; 
     }
