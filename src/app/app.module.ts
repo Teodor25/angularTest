@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 import { FormsModule } from '@angular/forms';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './routes/footer/footer.component';
@@ -28,6 +29,7 @@ import { AdvancedComponent } from './routes/advanced/advanced.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    MDBBootstrapModule.forRoot(),
     BrowserAnimationsModule
   ],
   providers: [
